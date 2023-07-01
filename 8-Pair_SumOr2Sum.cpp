@@ -6,7 +6,6 @@ vector<vector<int>> pairSum(vector<int> &arr, int s){
    vector<int> pair;
    unordered_map<int,int> map;
    
-   // sort(arr.begin(),arr.end());
 
    for(int i = 0; i < arr.size(); i++){
       int rem = s-arr[i];
